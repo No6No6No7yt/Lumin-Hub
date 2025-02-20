@@ -66,6 +66,11 @@ local a, b = {
                             'Aqua'
                         }
                     },
+                    5333333,
+                    'ModuleScript',
+                    {
+                        'Midnight'
+                    }
                     {
                         48,
                         'ModuleScript',
@@ -4445,7 +4450,8 @@ local aa = {
             Hover = Color3.fromRGB(200, 120, 170),
             HoverChange = 0.04
         }
-        local aa, ab, ac, ad, ae = b(49)
+        [5333333] = function()
+        local aa, ab, ac, ad, ae = b(5333333)
         return {
             Name = "Midnight",
             Accent = Color3.fromRGB(0, 50, 100),  -- A deep blue accent
