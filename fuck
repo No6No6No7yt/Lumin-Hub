@@ -6103,7 +6103,6 @@ else
 	Fluent = Library
 end
 
-local Dragging, DragInput, MousePos, StartPos = false
 
 
 
