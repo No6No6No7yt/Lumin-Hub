@@ -6108,14 +6108,7 @@ end
 
 
 
-Creator.AddSignal(Minimizer.InputChanged, function(Input)
-	if
-		Input.UserInputType == Enum.UserInputType.MouseMovement
-		or Input.UserInputType == Enum.UserInputType.Touch
-	then
-		DragInput = Input
-	end
-end)
+
 
 Creator.AddSignal(UserInputService.InputChanged, function(Input)
 	if Input == DragInput and Dragging then
